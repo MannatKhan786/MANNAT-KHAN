@@ -120,7 +120,7 @@ module.exports.handleEvent = async ({ api, event }) => {
 
     const randomShayari = shayaris[Math.floor(Math.random() * shayaris.length)];
 
-    const messageBody = `❁ ━━━━[ 𝗧𝗜𝗠𝗘 ]━━━━ ❁\n\n✰𝗧𝗜𝗠𝗘 𒁍 ${announcementTime} 🙂\n\n━━━━━━━━━━━━━━━━\n\n✰${randomShayari}\n\n‎❁ ━━━❃[आरिफ़ बाबू]❃━━━ ❁`;
+    const messageBody = `❁ ━━━━[ 𝗧𝗜𝗠𝗘 ]━━━━ ❁\n\n✰𝗧𝗜𝗠𝗘 𒁍 ${announcementTime} 🙂\n\n━━━━━━━━━━━━━━━━\n\n✰${randomShayari}\n\n‎❁ ━━❃[आरिफ़ बाबू]❃━━ ❁`;
 
     for (const thread of activeThreads) {
       await api.sendMessage({ body: messageBody, attachment: fs.createReadStream(imagePath) }, thread.threadID);
