@@ -1,12 +1,12 @@
 module.exports.config = {
-    name: 'autosent',
-    version: '10.02',
-    hasPermssion: 0,
-    credits: 'PREM BABU',
-    description: 'THIS BOT WAS MADE BY MR PREM BABU',
-    commandCategory: 'AUTO SEND TIME',
-    usages: '[AUTOMATIC]',
-    cooldowns: 3
+  name: "AUTO-TIME",
+  version: "1.2.0",
+  hasPermssion: 0,
+  credits: "ARIF BABU",
+  description: "MADE BY ARIF BABU",
+  commandCategory: "Utilities",
+  usages: "",
+  cooldowns: 5,
 };
  
 const nam = [{
